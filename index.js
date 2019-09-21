@@ -8,7 +8,7 @@ var app = express();
 // This responds with "Hello World" on the homepage
 app.get('/', function (req, res) {
    console.log("Got a GET request for the homepage");
-   res.send('Hello DialogFlow !');
+   res.send('Hello DialogFlow web services!');
 })
 
 // This responds a GET request for the /list_user page.
